@@ -11,6 +11,18 @@ function init() {
 	addRecipesToDocument(recipes);
 	// Add the event listeners to the form elements
 	initFormHandler();
+
+	preloadImages([
+		'./assets/images/1_spooky-ghost-cookies.jpeg',
+		'./assets/images/2_frightfully-easy-ghost-cookies.jpeg',
+		'./assets/images/3_ingredient-ghost-halloween-cookies.jpeg',
+		'./assets/images/icons/5-star.svg',
+		'./assets/images/icons/4-star.svg',
+		'./assets/images/icons/3-star.svg',
+		'./assets/images/icons/2-star.svg',
+		'./assets/images/icons/1-star.svg',
+		'./assets/images/icons/0-star.svg',
+	]);
 }
 
 /**
